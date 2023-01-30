@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:placesapp/Screens/add-place_screen.dart';
 import 'package:placesapp/providers/great_places.dart';
 import 'package:provider/provider.dart';
+import 'package:sqflite/sqflite.dart';
 
 class placeListScreen extends StatelessWidget {
   const placeListScreen({super.key});
